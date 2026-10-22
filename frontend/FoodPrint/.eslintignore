@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+.expo/
+dist/
+build/
+web-build/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Lockfiles
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Native folders
+ios/
+android/
+
+# Generated type files
+expo-env.d.ts
+
+# Configuration files
+*.config.js
+babel.config.js
+metro.config.js

@@ -1,0 +1,26 @@
+# Build output
+backend/target/
+
+# Local Maven installation (don't commit tools)
+backend/apache-maven-*/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.env.local
+
+# Binary archives
+*.tar.gz
+*.zip
+/last_local_test_version

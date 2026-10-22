@@ -1,0 +1,39 @@
+{
+    "expo": {
+        "name": "FoodPrint",
+        "slug": "FoodPrint",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/app_logo.png",
+        "userInterfaceStyle": "light",
+        "newArchEnabled": true,
+        "splash": {
+            "image": "./assets/app_logo.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#f5f7f4"
+        },
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "edgeToEdgeEnabled": true,
+            "predictiveBackGestureEnabled": false
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "plugins": [
+            [
+                "expo-image-picker",
+                {
+                    "photosPermission": "Allow FoodPrint to choose photos for meal logging.",
+                    "cameraPermission": "Allow FoodPrint to take photos for meal logging."
+                }
+            ]
+        ]
+    }
+}

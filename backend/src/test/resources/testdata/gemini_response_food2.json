@@ -1,0 +1,42 @@
+{
+    "foods": [
+        {
+            "name_en": "grilled steak",
+            "name_zh": "Pan-seared steak",
+            "portion_amount": 250,
+            "portion_unit": "g",
+            "category": "protein",
+            "estimated_calories": 550,
+            "estimated_protein_g": 52.0,
+            "estimated_fat_g": 36.0,
+            "estimated_carbs_g": 0,
+            "estimated_fiber_g": 0
+        },
+        {
+            "name_en": "sauteed mushrooms",
+            "name_zh": "Sauteed mushrooms",
+            "portion_amount": 80,
+            "portion_unit": "g",
+            "category": "vegetable",
+            "estimated_calories": 35,
+            "estimated_protein_g": 2.5,
+            "estimated_fat_g": 1.5,
+            "estimated_carbs_g": 4.0,
+            "estimated_fiber_g": 1.2
+        },
+        {
+            "name_en": "roasted garlic",
+            "name_zh": "Roasted garlic",
+            "portion_amount": 15,
+            "portion_unit": "g",
+            "category": "seasoning",
+            "estimated_calories": 22,
+            "estimated_protein_g": 0.9,
+            "estimated_fat_g": 0.1,
+            "estimated_carbs_g": 5.0,
+            "estimated_fiber_g": 0.3
+        }
+    ],
+    "meal_description": "A plate with sliced grilled steak, sauteed mushrooms, roasted garlic, and a dark sauce",
+    "confidence": 0.88
+}

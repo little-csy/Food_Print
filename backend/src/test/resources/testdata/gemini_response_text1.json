@@ -1,0 +1,66 @@
+{
+    "foods": [
+        {
+            "name_en": "grilled chicken breast",
+            "name_zh": "Grilled chicken breast",
+            "portion_amount": 120,
+            "portion_unit": "g",
+            "category": "protein",
+            "estimated_calories": 198,
+            "estimated_protein_g": 37.0,
+            "estimated_fat_g": 4.3,
+            "estimated_carbs_g": 0,
+            "estimated_fiber_g": 0
+        },
+        {
+            "name_en": "white rice",
+            "name_zh": "White rice",
+            "portion_amount": 300,
+            "portion_unit": "g",
+            "category": "carbs",
+            "estimated_calories": 390,
+            "estimated_protein_g": 7.2,
+            "estimated_fat_g": 0.6,
+            "estimated_carbs_g": 86.0,
+            "estimated_fiber_g": 0.6
+        },
+        {
+            "name_en": "steamed broccoli",
+            "name_zh": "Steamed broccoli",
+            "portion_amount": 80,
+            "portion_unit": "g",
+            "category": "vegetable",
+            "estimated_calories": 28,
+            "estimated_protein_g": 2.3,
+            "estimated_fat_g": 0.3,
+            "estimated_carbs_g": 5.6,
+            "estimated_fiber_g": 2.1
+        },
+        {
+            "name_en": "olive oil",
+            "name_zh": "Olive oil",
+            "portion_amount": 15,
+            "portion_unit": "ml",
+            "category": "fat",
+            "estimated_calories": 120,
+            "estimated_protein_g": 0,
+            "estimated_fat_g": 14.0,
+            "estimated_carbs_g": 0,
+            "estimated_fiber_g": 0
+        },
+        {
+            "name_en": "orange juice",
+            "name_zh": "Orange juice",
+            "portion_amount": 200,
+            "portion_unit": "ml",
+            "category": "beverage",
+            "estimated_calories": 88,
+            "estimated_protein_g": 1.4,
+            "estimated_fat_g": 0.4,
+            "estimated_carbs_g": 20.0,
+            "estimated_fiber_g": 0.4
+        }
+    ],
+    "meal_description": "Lunch with grilled chicken breast, a bowl of white rice, steamed broccoli with olive oil, and orange juice",
+    "confidence": 0.92
+}

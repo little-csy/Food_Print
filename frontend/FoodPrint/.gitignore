@@ -1,0 +1,61 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native (generated, do not commit)
+/ios
+/android
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Lockfiles (commit pnpm-lock.yaml; ignore lockfiles from other package managers)
+package-lock.json
+yarn.lock
+bun.lock
+
+# Environment variables and secrets (do not commit)
+.env
+.env.*
+!.env.example
+
+# Debug / Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+logs/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests / coverage
+coverage/
+.nyc_output/
+
+# Editor / system
+.DS_Store
+Thumbs.db
+*.pem
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Optional: local Cursor configuration (if it should not be committed)
+# .cursor/

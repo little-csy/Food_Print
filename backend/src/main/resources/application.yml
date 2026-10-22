@@ -1,0 +1,45 @@
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  datasource:
+    url: ${SUPABASE_DB_URL:jdbc:h2:mem:testdb}
+    username: ${SUPABASE_DB_USER:sa}
+    password: ${SUPABASE_DB_PASSWORD:}
+    hikari:
+      data-source-properties:
+        prepareThreshold: 0
+  jpa:
+    hibernate:
+      ddl-auto: ${JPA_DDL_AUTO:update}
+    properties:
+      hibernate:
+        dialect: ${HIBERNATE_DIALECT:org.hibernate.dialect.H2Dialect}
+        format_sql: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${SUPABASE_URL:http://localhost}/auth/v1/.well-known/jwks.json
+
+supabase:
+  url: ${SUPABASE_URL:http://localhost}
+  anon-key: ${SUPABASE_ANON_KEY:}
+  service-role-key: ${SUPABASE_SERVICE_ROLE_KEY:}
+
+foodprint:
+  ai:
+    gemini:
+      api-key: ${GEMINI_API_KEY:YOUR_GEMINI_API_KEY}
+      model: gemini-2.5-flash
+      base-url: https://generativelanguage.googleapis.com/v1beta
+      timeout-seconds: 30
+    usda:
+      api-key: ${USDA_API_KEY:DEMO_KEY}
+      base-url: https://api.nal.usda.gov/fdc/v1
+      timeout-seconds: 10
+      

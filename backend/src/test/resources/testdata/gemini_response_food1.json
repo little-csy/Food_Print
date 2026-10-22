@@ -1,0 +1,42 @@
+{
+  "foods": [
+    {
+      "name_en": "udon noodles",
+      "name_zh": "Udon noodles",
+      "portion_amount": 200,
+      "portion_unit": "g",
+      "category": "carbs",
+      "estimated_calories": 210,
+      "estimated_protein_g": 5.2,
+      "estimated_fat_g": 1.0,
+      "estimated_carbs_g": 43.0,
+      "estimated_fiber_g": 1.8
+    },
+    {
+      "name_en": "cherry tomatoes",
+      "name_zh": "Cherry tomatoes",
+      "portion_amount": 120,
+      "portion_unit": "g",
+      "category": "vegetable",
+      "estimated_calories": 22,
+      "estimated_protein_g": 1.1,
+      "estimated_fat_g": 0.2,
+      "estimated_carbs_g": 4.7,
+      "estimated_fiber_g": 1.4
+    },
+    {
+      "name_en": "cucumber slices",
+      "name_zh": "Cucumber slices",
+      "portion_amount": 50,
+      "portion_unit": "g",
+      "category": "vegetable",
+      "estimated_calories": 8,
+      "estimated_protein_g": 0.3,
+      "estimated_fat_g": 0.1,
+      "estimated_carbs_g": 1.8,
+      "estimated_fiber_g": 0.3
+    }
+  ],
+  "meal_description": "A bowl of udon noodle soup with whole cherry tomatoes and cucumber slices in broth",
+  "confidence": 0.9
+}
