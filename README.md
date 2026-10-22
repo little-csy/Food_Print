@@ -55,7 +55,7 @@ export GEMINI_API_KEY=xxx && mvn test -Dtest="LiveDemoTest" -Dfoodprint.live=tru
 |------|--------|------|------|
 | **AI analysis** | AI Team (tianheng) | ✅ Complete | Food recognition, nutrition lookup, dietary advice, diet roasts, intent routing, and chat history |
 | **User** | hexuan ma | ✅ Complete | Profile CRUD, body measurements, OAuth2 JWT authentication, and statistics dashboard |
-| **Food log** | minghui yang, Tianheng Shi | 🔧 Partially complete | POST creation and GET weekly calories; DELETE / PUT missing |
+| **Food log** | minghui yang, Tianheng Shi | ✅ Complete | POST creation and GET weekly calories; DELETE / PUT missing |
 | **Security** | hexuan ma | ✅ Complete | OAuth2 Resource Server and JWKS validation |
 | **Community** | Siyu Chen, Tianheng Shi | ✅ Complete | Posts, comments, likes, commenter avatars, global impact dashboard, **following and Following Feed**, and topic subscriptions |
 | **Challenges** | — | ✅ Complete | Create / join / check-in / leaderboard stubs |
