@@ -168,19 +168,3 @@ import com.foodprint.ai.dto.UserNutritionContext;
 | data_source | String | "USDA" or "AI_ESTIMATE" |
 | portion_amount | double | Portion value |
 | portion_unit | String | Portion unit |
-
----
-
-## 7. TODO
-
-| Priority | Task | Owner |
-|--------|------|------|
-| P0 | Integrate Supabase PostgreSQL | Engineer A |
-| P0 | Implement JWT validation | Engineer A |
-| P0 | Food log CRUD and AI calls | Engineer B |
-| P1 | Multi-turn conversation context management | AI Module + Frontend |
-| P1 | AI Roast Feature | AI Module |
-| P2 | Add retries (Resilience4j) | AI Module |
-| P2 | Cache popular foods (Redis) | AI Module |
-| P2 | Move API keys to environment variables | Shared |
-| P3 | Streaming output (SSE/WebSocket) | AI Module |
