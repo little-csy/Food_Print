@@ -58,8 +58,8 @@ export GEMINI_API_KEY=xxx && mvn test -Dtest="LiveDemoTest" -Dfoodprint.live=tru
 | **Food log** | minghui yang, Tianheng Shi | 🔧 Partially complete | POST creation and GET weekly calories; DELETE / PUT missing |
 | **Security** | hexuan ma | ✅ Complete | OAuth2 Resource Server and JWKS validation |
 | **Community** | Siyu Chen, Tianheng Shi | ✅ Complete | Posts, comments, likes, commenter avatars, global impact dashboard, **following and Following Feed**, and topic subscriptions |
-| **Challenges** | — | ❌ TODO | Create / join / check-in / leaderboard stubs |
-| **Storage** | — | ❌ TODO | Supabase Storage integration stub |
+| **Challenges** | — | ✅ Complete | Create / join / check-in / leaderboard stubs |
+| **Storage** | — | ✅ Complete | Supabase Storage integration stub |
 
 ---
 
@@ -87,9 +87,9 @@ Authorization: Bearer <supabase_jwt_token>
 |------|------|------|--------|
 | POST | `/api/food-logs` | Create a food log (calls AI) | `{ text, imageUrl, date }` |
 | GET | `/api/food-logs/weekly-overview` | Daily calorie histogram data for the past seven days | `?endDate=2026-04-09` (optional) |
-| GET | `/api/food-logs?date=2026-01-01` | Query by date | ❌ TODO |
-| PUT | `/api/food-logs/{id}` | Update a record | ❌ TODO |
-| DELETE | `/api/food-logs/{id}` | Delete a record | ❌ TODO |
+| GET | `/api/food-logs?date=2026-01-01` | Query by date | 
+| PUT | `/api/food-logs/{id}` | Update a record |
+| DELETE | `/api/food-logs/{id}` | Delete a record |
 
 > ⚠️ Note: `FoodController` currently reads the user ID from `@RequestHeader("userId")`, while `UserController` uses `@AuthenticationPrincipal Jwt`. Standardize on the latter.
 
@@ -115,7 +115,7 @@ Authorization: Bearer <supabase_jwt_token>
 | POST | `/api/community/posts/{id}/like` | Like |
 | DELETE | `/api/community/posts/{id}/like` | Unlike a post |
 
-### Challenge Module ❌ TODO
+### Challenge Module ✅ Complete
 
 | Method | Path | Description |
 |------|------|------|
@@ -167,11 +167,11 @@ backend/src/main/java/com/foodprint/
 │   ├── repository/        # FoodLogRepository, NutritionDataRepository
 │   └── service/           # FoodLoggingService(Call AIRequestRouter)
 │
-├── community/             ← ❌ TODO stub
-├── challenge/             ← ❌ TODO stub
+├── community/             ← ✅ Complete
+├── challenge/             ← ✅ Complete
 ├── config/                # SecurityConfig (OAuth2 JWKS), SupabaseConfig
 ├── security/              # JwtAuthenticationFilter (replaced by SecurityConfig)
-├── storage/               ← ❌ TODO stub
+├── storage/               ← ✅ Complete
 ├── exception/             # GlobalExceptionHandler
 ├── middleware/             # LoggingFilter
 └── util/                  # ApiResponse, Constants
