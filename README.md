@@ -104,7 +104,7 @@ Authorization: Bearer <supabase_jwt_token>
 > When the frontend sends free-form text such as "I am so tired today" to `/api/ai/analyze`, the backend classifies it as `GENERAL_CHAT` and calls Gemini for a reply.
 > The database automatically saves the latest 10 chat messages, associated with the `userId` from JWT. **The frontend does not need to send conversation history**; send text normally to preserve context.
 
-### Community Module 🔧
+### Community Module ✅
 
 | Method | Path | Description |
 |------|------|------|
@@ -115,7 +115,7 @@ Authorization: Bearer <supabase_jwt_token>
 | POST | `/api/community/posts/{id}/like` | Like |
 | DELETE | `/api/community/posts/{id}/like` | Unlike a post |
 
-### Challenge Module ✅ Complete
+### Challenge Module ✅
 
 | Method | Path | Description |
 |------|------|------|
