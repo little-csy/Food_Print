@@ -3,11 +3,8 @@
 A food logging and community challenge app that helps users track their diet, receive AI nutrition advice, share in the community, and participate in health challenges.
 
 👉 **[Frontend Essentials] Quick Integration Guide**: [FRONTEND_API_REFERENCE.md](./FRONTEND_API_REFERENCE.md) summarizes all backend endpoints for frontend developers, ready to copy and integrate.
-<img width="853" height="1844" alt="1" src="https://github.com/user-attachments/assets/01815c76-b1fd-4b1e-b5da-8d52b2de14ec" />
-<img width="853" height="1844" alt="2" src="https://github.com/user-attachments/assets/a9622388-338f-4dc6-8344-20973a7d7c57" />
-<img width="853" height="1844" alt="3" src="https://github.com/user-attachments/assets/96fac16e-151a-44a9-87c7-cbeffe736a73" />
-<img width="853" height="1844" alt="4" src="https://github.com/user-attachments/assets/eea4009c-1182-46b4-acbe-ea418d522df0" />
-
+<img width="853" height="1844" alt="1" src="https://github.com/user-attachments/assets/01815c76-b1fd-4b1e-b5da-8d52b2de14ec" /> <img width="853" height="1844" alt="2" src="https://github.com/user-attachments/assets/a9622388-338f-4dc6-8344-20973a7d7c57" />
+<img width="853" height="1844" alt="3" src="https://github.com/user-attachments/assets/96fac16e-151a-44a9-87c7-cbeffe736a73" /> <img width="853" height="1844" alt="4" src="https://github.com/user-attachments/assets/eea4009c-1182-46b4-acbe-ea418d522df0" />
 ---
 
 ## Quick Start
