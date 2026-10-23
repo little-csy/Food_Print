@@ -12,8 +12,8 @@ A food logging and community challenge app that helps users track their diet, re
   </tr>
   <tr>
     <td><img width="320" alt="Profile" src="https://github.com/user-attachments/assets/eea4009c-1182-46b4-acbe-ea418d522df0" /></td>
-    <td><img width="427" height="922" alt="image" src="https://github.com/user-attachments/assets/602d57c9-8313-446b-8d36-2dedcf5e28dd" /><td>
-    <td><img width="427" height="922" alt="image" src="https://github.com/user-attachments/assets/35eaca43-3316-4ed0-9785-8f12c2a884cf" /><td>
+    <td><img width="320" alt="image" src="https://github.com/user-attachments/assets/602d57c9-8313-446b-8d36-2dedcf5e28dd" /><td>
+    <td><img width="320" alt="image" src="https://github.com/user-attachments/assets/35eaca43-3316-4ed0-9785-8f12c2a884cf" /><td>
   </tr>
 </table>
 
