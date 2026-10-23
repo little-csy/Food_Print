@@ -6,12 +6,12 @@ A food logging and community challenge app that helps users track their diet, re
 
 <table>
   <tr>
-    <td><img width="260" alt="Home" src="https://github.com/user-attachments/assets/01815c76-b1fd-4b1e-b5da-8d52b2de14ec" /></td>
-    <td><img width="260" alt="Text Description" src="https://github.com/user-attachments/assets/a9622388-338f-4dc6-8344-20973a7d7c57" /></td>
+    <td><img width="320" alt="Home" src="https://github.com/user-attachments/assets/01815c76-b1fd-4b1e-b5da-8d52b2de14ec" /></td>
+    <td><img width="320" alt="Text Description" src="https://github.com/user-attachments/assets/a9622388-338f-4dc6-8344-20973a7d7c57" /></td>
   </tr>
   <tr>
-    <td><img width="260" alt="Photo Scan" src="https://github.com/user-attachments/assets/96fac16e-151a-44a9-87c7-cbeffe736a73" /></td>
-    <td><img width="260" alt="Profile" src="https://github.com/user-attachments/assets/eea4009c-1182-46b4-acbe-ea418d522df0" /></td>
+    <td><img width="320" alt="Photo Scan" src="https://github.com/user-attachments/assets/96fac16e-151a-44a9-87c7-cbeffe736a73" /></td>
+    <td><img width="320" alt="Profile" src="https://github.com/user-attachments/assets/eea4009c-1182-46b4-acbe-ea418d522df0" /></td>
   </tr>
 </table>
 
